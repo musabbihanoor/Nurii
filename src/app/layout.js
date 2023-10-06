@@ -13,7 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={...inter.className + " bg-[#000] text-[#fff] flex flex-col min-h-screen"}>
+      <body className={...inter.className + " text-[#fff] flex flex-col min-h-screen"}>
+      <div className="bg-[#000] h-[100vh] w-full absolute z-[-1]"></div>
         <div className="bg-[url('/images/background.png')] bg-contain bg-no-repeat bg-center h-[100vh] w-full absolute z-[-1]"></div>
         <Navbar/>
         <div className="flex-1 flex flex-col">
