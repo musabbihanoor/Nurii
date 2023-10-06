@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import Navbar from "../components/Navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -11,7 +13,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={...inter.className + " bg-black flex flex-col min-h-screen"}>
+        <div className="bg-[url('/images/background.png')] bg-contain bg-no-repeat bg-center h-[100vh] w-full absolute z-[-1]"></div>
+        <Navbar/>
+        <div className="flex-1 flex flex-col">
+        {children}</div>    
+        <Footer/>
+      </body>
     </html>
   );
 }
