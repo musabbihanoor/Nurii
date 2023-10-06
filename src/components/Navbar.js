@@ -3,11 +3,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between w-full p-32 pb-0">
-      <h1 className="text-5xl font-bold">
+    <nav className="flex items-center justify-between w-full md:p-32 sm:p-20 p-10 pb-0">
+      <h1 className="sm:text-5xl text-3xl font-bold">
         <Link href="/">Nurii</Link>
       </h1>
-      <ul className="flex gap-5 text-xl">
+      <ul className="flex gap-5 sm:text-xl text-sm">
         <li>
           <Link href="/whitepaper">Whitepaper</Link>
         </li>

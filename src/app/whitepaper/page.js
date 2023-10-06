@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="py-32 px-44">
+    <div className="py-32 sm:px-44 px-10">
       <p className="font-bold">
         <span className="text-xl">Whitepaper</span>
         <br />
