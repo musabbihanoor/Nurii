@@ -2,7 +2,8 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="py-32 sm:px-44 px-10">
+    <div className="py-32 sm:px-[350px] px-10">
+      <div className="bg-[url('/images/background2.png')] bg-contain bg-no-repeat bg-center h-[100vh] w-full absolute top-0 left-0 z-[-1]"></div>
       <p className="font-bold">
         <span className="text-xl">Whitepaper</span>
         <br />
