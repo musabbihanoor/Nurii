@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between w-full md:p-32 sm:p-20 p-10 pb-0">
+    <nav className="flex items-center justify-between w-full sm:p-20 p-10 pb-0">
       <h1 className="sm:text-5xl text-3xl font-bold">
         <Link href="/">Nurii</Link>
       </h1>

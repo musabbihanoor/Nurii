@@ -9,7 +9,7 @@ export default function Home() {
         <span>bridge between traditional finance </span>
         <span>and the blockchain future.</span>
       </p>
-      <p className="text-xl sm:hidden block font-bold text-center px-10">
+      <p className="text-xl sm:hidden block font-bold px-10">
         Nurii is a catalyst for innovation, a bridge between traditional finance
         and the blockchain future.
       </p>
